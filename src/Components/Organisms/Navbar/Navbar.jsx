@@ -4,7 +4,7 @@ import profile from "../../../assets/profile.jpg";
 
 const Navbar = () => {
   return (
-    <header className="px-10 flex items-center sticky py-4 top-0 shadow-[0px_4px_10px_0px_rgba(79,79,79,0.07)]">
+    <header className="px-10 flex items-center sticky h-[7.5vh] max-h-[60px] top-0 shadow-[0px_4px_10px_0px_rgba(79,79,79,0.07)] bg-white z-10 ">
       <div className="w-1/5">
         <h1 className="font-roboto text-[#1875F0] text-2xl font-black">
           TransMonitor

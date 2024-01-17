@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const CustomCard = () => {
+const CustomCard = ({ style, children }) => {
   return (
-    <div>CustomCard</div>
-  )
-}
+    <div className={`rounded border-[#eef8fd] border p-5 ${style}`}>
+      {children}
+    </div>
+  );
+};
 
-export default CustomCard
+export default CustomCard;
